@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa EBAC: E-mail com HTML</title>
+    <style>
+        * {
+            margin: 0;
+            border: 0;
+            padding: 0;
+
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 24pt;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .destaque {
+            color: rgb(139, 12, 12);
+        }
+
+        .descricao {
+            text-align: center;
+            margin: 12px;
+        }
+
+        img {
+            width: 200px;
+        }
+
+        body{
+            margin: 0 auto;
+            padding: 10px;
+
+        }
+
+        .corpo {
+            display: block;
+            justify-content: center;
+            align-items: center;
+            background-color: #cacaca;
+            width: 780px;
+            height: 650px;
+            margin: auto;
+        }
+
+        .catalogo {
+            display: flex;
+            margin: 22px 0;
+        }
+
+        .anime-poster {
+            display: block;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            background-color: #dddddd;
+            padding: 10px;
+            margin: 16px;
+            width: 220px;
+            cursor: pointer;
+
+            color: black;
+
+        }
+
+        .data-lancamento {
+            font-size: 18pt;
+            font-weight: bold;
+        }
+
+        a {
+            color: rgb(139, 12, 12);
+        }
+
+        footer {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <section class="corpo">
+        <h1>Novos <b class="destaque">ANIMES</b> toda semana!</h1>
+        <p class="descricao">Os melhores animes você encontra aqui! <br>O melhor e maior serviço de streaming de animes do <b>BRASIL</b>.</p>
+        <span class="catalogo">
+            <div class="anime-poster">
+                <img src="poster1.jpeg" alt="Pôster de Kimetsu no yaiba">
+                <p>Kimetsu no yaiba</p>
+                <p class="data-lancamento">16/10</p>
+            </div>
+            <div class="anime-poster">
+                <img src="poster2.jpeg" alt="Pôster de Kimetsu no yaiba">
+                <p>Youjo Senki</p>
+                <p class="data-lancamento">18/10</p>
+            </div>
+            <div class="anime-poster">
+                <img src="poster3.jpeg" alt="Pôster de Kimetsu no yaiba">
+                <p>Beastars</p>
+                <p class="data-lancamento">21/10</p>
+            </div>
+        </span>
+        <h2>Inclusos na sua assinatura <b class="destaque">PREMIUM</b>!</h2>
+        <p class="descricao">Acesse o catálogo completo <a href="#">AQUI!</a></p>
+    </section>
+    <footer>
+        <p>HTML por Kaycke Nizer Palhano</p>
+    </footer>
+</body>
+</html>
